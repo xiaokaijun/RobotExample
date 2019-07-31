@@ -13,9 +13,9 @@
 #include <thread>
 #include "Robot.h"
 #include "utils/03_Camera2Base.h"
-#include "05_DetectSquare.cpp"
+#include "utils/05_DetectSquare.h"
 /*
-  自动抓取小方块
+  自动抓取小方块,该示例代码还未完成
 */
 using namespace std;
 using namespace cv;
