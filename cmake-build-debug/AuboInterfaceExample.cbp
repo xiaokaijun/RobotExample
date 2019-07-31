@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AuboInterfaceExample"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\robotdependents\;CMake Files\..\..\..\robotdependents\libs\;CMake Files\..\..\..\robotdependents\libs\qt\;CMake Files\..\..\..\robotdependents\libs\qt\lib\;CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\;CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Core\;CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\;CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Network\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AuboInterfaceExample">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/AuboInterfaceExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/Makefile&quot;  VERBOSE=1 AuboInterfaceExample"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AuboInterfaceExample/fast">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/AuboInterfaceExample" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/Makefile&quot;  VERBOSE=1 AuboInterfaceExample/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11_DrawCircle">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/11_DrawCircle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/11_DrawCircle_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 11_DrawCircle"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11_DrawCircle/fast">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/11_DrawCircle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/11_DrawCircle_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 11_DrawCircle/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="10_RobWork">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/10_RobWork" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/10_RobWork_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 10_RobWork"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="10_RobWork/fast">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/10_RobWork" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/10_RobWork_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 10_RobWork/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="08_Painter">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/08_Painter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/08_Painter_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 08_Painter"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="08_Painter/fast">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/08_Painter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/08_Painter_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 08_Painter/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestDoubleHand">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/TestDoubleHand" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/TestDoubleHand_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 TestDoubleHand"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestDoubleHand/fast">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/TestDoubleHand" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/TestDoubleHand_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 TestDoubleHand/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03_TestCamera2Base">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/03_TestCamera2Base" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/03_TestCamera2Base_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 03_TestCamera2Base"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03_TestCamera2Base/fast">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/03_TestCamera2Base" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/03_TestCamera2Base_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 03_TestCamera2Base/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="07_test_paw">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/07_test_paw" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/07_test_paw_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 07_test_paw"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="07_test_paw/fast">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/07_test_paw" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/07_test_paw_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 07_test_paw/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05_DetectSquare">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/05_DetectSquare" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/05_DetectSquare_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 05_DetectSquare"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05_DetectSquare/fast">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/05_DetectSquare" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/05_DetectSquare_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 05_DetectSquare/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="12_AutoGrab">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/12_AutoGrab" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/12_AutoGrab_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 12_AutoGrab"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="12_AutoGrab/fast">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/12_AutoGrab" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/12_AutoGrab_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 12_AutoGrab/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestRobot">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/TestRobot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/TestRobot_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 TestRobot"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestRobot/fast">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/TestRobot" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/TestRobot_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 TestRobot/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04_VerifyCalibration">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/04_VerifyCalibration" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/04_VerifyCalibration_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 04_VerifyCalibration"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04_VerifyCalibration/fast">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/04_VerifyCalibration" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/04_VerifyCalibration_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 04_VerifyCalibration/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="06_AutoGrab">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/06_AutoGrab" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/06_AutoGrab_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 06_AutoGrab"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="06_AutoGrab/fast">
+				<Option output="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin/06_AutoGrab" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/06_AutoGrab_autogen/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libconfig/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/log4cplus/linux_x64/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/protobuf/linux_x64/google/protobuf/inc"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotController/Header"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robotSDK/inc"/>
+					<Add directory="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtNetwork"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/opencv-3.4.1/include/opencv"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/libfreenect2/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/robwork/src"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtCore"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/./mkspecs/linux-g++"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtGui"/>
+					<Add directory="/home/kaijun/devtool/robotdependents/libs/qt/include/QtWidgets"/>
+					<Add directory="/usr/include/c++/4.8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/4.8"/>
+					<Add directory="/usr/include/c++/4.8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 06_AutoGrab/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="11_DrawCircle_autogen">
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 11_DrawCircle_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="10_RobWork_autogen">
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 10_RobWork_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="08_Painter_autogen">
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 08_Painter_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestDoubleHand_autogen">
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 TestDoubleHand_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03_TestCamera2Base_autogen">
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 03_TestCamera2Base_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="07_test_paw_autogen">
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 07_test_paw_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="05_DetectSquare_autogen">
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 05_DetectSquare_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="12_AutoGrab_autogen">
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 12_AutoGrab_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TestRobot_autogen">
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 TestRobot_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="04_VerifyCalibration_autogen">
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 04_VerifyCalibration_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="06_AutoGrab_autogen">
+				<Option working_dir="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 06_AutoGrab_autogen"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/03_TestCamera2Base_autogen/mocs_compilation.cpp">
+			<Option target="03_TestCamera2Base"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/04_VerifyCalibration_autogen/mocs_compilation.cpp">
+			<Option target="04_VerifyCalibration"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/05_DetectSquare_autogen/mocs_compilation.cpp">
+			<Option target="05_DetectSquare"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/06_AutoGrab_autogen/mocs_compilation.cpp">
+			<Option target="06_AutoGrab"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/07_test_paw_autogen/mocs_compilation.cpp">
+			<Option target="07_test_paw"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/08_Painter_autogen/mocs_compilation.cpp">
+			<Option target="08_Painter"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/10_RobWork_autogen/mocs_compilation.cpp">
+			<Option target="10_RobWork"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/11_DrawCircle_autogen/mocs_compilation.cpp">
+			<Option target="11_DrawCircle"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/12_AutoGrab_autogen/mocs_compilation.cpp">
+			<Option target="12_AutoGrab"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/TestDoubleHand_autogen/mocs_compilation.cpp">
+			<Option target="TestDoubleHand"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake-build-debug/src/TestRobot_autogen/mocs_compilation.cpp">
+			<Option target="TestRobot"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/AuboSdkExample.cpp">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/AuboSdkExample.h">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/conveyortrackexample.cpp">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/conveyortrackexample.h">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/example_0.cpp">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/example_0.h">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/example_1.cpp">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/example_1.h">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/example_3.cpp">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/example_3.h">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/example_4.cpp">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/example_4.h">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/example_5.cpp">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/example_5.h">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/example_6.cpp">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/example_6.h">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/example_8.cpp">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/example_8.h">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/example_9.cpp">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/example_9.h">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/example_toolio.cpp">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/example_toolio.h">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/interfaceboarddemo.cpp">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/interfaceboarddemo.h">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/robottooliotestdemo.cpp">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/robottooliotestdemo.h">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/test.cpp">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/test.h">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/util.cpp">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/example/util.h">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/main.cpp">
+			<Option target="AuboInterfaceExample"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src/01_TestRobotSDK.cpp">
+			<Option target="TestRobot"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src/02_TestDoubleRobot.cpp">
+			<Option target="TestDoubleHand"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src/03_TestCamera2Base.cpp">
+			<Option target="03_TestCamera2Base"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src/04_VerifyCalibration.cpp">
+			<Option target="04_VerifyCalibration"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src/05_DetectSquare.cpp">
+			<Option target="05_DetectSquare"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src/06_AutoGrab.cpp">
+			<Option target="06_AutoGrab"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src/07_test_paw.cpp">
+			<Option target="07_test_paw"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src/08_Painter.cpp">
+			<Option target="08_Painter"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src/10_RobWork.cpp">
+			<Option target="10_RobWork"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src/11_DrawCircle.cpp">
+			<Option target="11_DrawCircle"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src/12_AutoGrab.cpp">
+			<Option target="12_AutoGrab"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src/Robot.cpp">
+			<Option target="11_DrawCircle"/>
+			<Option target="10_RobWork"/>
+			<Option target="08_Painter"/>
+			<Option target="TestDoubleHand"/>
+			<Option target="12_AutoGrab"/>
+			<Option target="TestRobot"/>
+			<Option target="04_VerifyCalibration"/>
+			<Option target="06_AutoGrab"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src/Robot.h">
+			<Option target="11_DrawCircle"/>
+			<Option target="10_RobWork"/>
+			<Option target="08_Painter"/>
+			<Option target="TestDoubleHand"/>
+			<Option target="12_AutoGrab"/>
+			<Option target="TestRobot"/>
+			<Option target="04_VerifyCalibration"/>
+			<Option target="06_AutoGrab"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src/paw/Paw.cpp">
+			<Option target="11_DrawCircle"/>
+			<Option target="10_RobWork"/>
+			<Option target="08_Painter"/>
+			<Option target="TestDoubleHand"/>
+			<Option target="07_test_paw"/>
+			<Option target="12_AutoGrab"/>
+			<Option target="TestRobot"/>
+			<Option target="04_VerifyCalibration"/>
+			<Option target="06_AutoGrab"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src/paw/Paw.h">
+			<Option target="11_DrawCircle"/>
+			<Option target="10_RobWork"/>
+			<Option target="08_Painter"/>
+			<Option target="TestDoubleHand"/>
+			<Option target="07_test_paw"/>
+			<Option target="12_AutoGrab"/>
+			<Option target="TestRobot"/>
+			<Option target="04_VerifyCalibration"/>
+			<Option target="06_AutoGrab"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src/paw/rs232.cpp">
+			<Option target="11_DrawCircle"/>
+			<Option target="10_RobWork"/>
+			<Option target="08_Painter"/>
+			<Option target="TestDoubleHand"/>
+			<Option target="07_test_paw"/>
+			<Option target="12_AutoGrab"/>
+			<Option target="TestRobot"/>
+			<Option target="04_VerifyCalibration"/>
+			<Option target="06_AutoGrab"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src/paw/rs232.h">
+			<Option target="11_DrawCircle"/>
+			<Option target="10_RobWork"/>
+			<Option target="08_Painter"/>
+			<Option target="TestDoubleHand"/>
+			<Option target="07_test_paw"/>
+			<Option target="12_AutoGrab"/>
+			<Option target="TestRobot"/>
+			<Option target="04_VerifyCalibration"/>
+			<Option target="06_AutoGrab"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src/utils/RPYUtils.h">
+			<Option target="11_DrawCircle"/>
+			<Option target="10_RobWork"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake/FindAubo.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake/FindFreenect.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake/FindOpenCV.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake/FindQt.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/cmake/FindRobWork.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/../../../robotdependents/libs/qt/lib/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\robotdependents\libs\qt\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/kaijun/devtool/auboSDK/Linux/RobotExample/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

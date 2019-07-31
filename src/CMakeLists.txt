@@ -14,8 +14,8 @@ target_link_libraries(03_TestCamera2Base  ${QT_LIBRARIES} ${OpenCV_LIBRARIES} ${
 
 
 
-add_executable(04_VerifyCalibration 04_VerifyCalibration.cpp 03_TestCamera2Base.cpp Robot.cpp Robot.h  ${PAW_SOURCE})
-target_link_libraries(04_VerifyCalibration  libfreenect2.so ${OpenCV_LIBRARIES}  ${QT_LIBRARIES} ${AUBO_LIBRARIES})
+add_executable(04_VerifyCalibration 04_VerifyCalibration.cpp Robot.cpp Robot.h  ${PAW_SOURCE})
+target_link_libraries(04_VerifyCalibration  ${FREENECT_LIBRARIES} ${OpenCV_LIBRARIES}  ${QT_LIBRARIES} ${AUBO_LIBRARIES})
 
 # 小方块识别案例
 add_executable(05_DetectSquare 05_DetectSquare.cpp ${UTILS_SOURCE}  )
@@ -29,11 +29,11 @@ target_link_libraries(06_AutoGrab   ${FREENECT_LIBRARIES}  ${OpenCV_LIBRARIES}  
 
 ## 自动抓取案例
 add_executable(07_test_paw 07_test_paw.cpp ${PAW_SOURCE})
-target_link_libraries(07_test_paw  libfreenect2.so ${OpenCV_LIBRARIES}  ${QT_LIBRARIES} ${AUBO_LIBRARIES})
+target_link_libraries(07_test_paw  ${FREENECT_LIBRARIES} ${OpenCV_LIBRARIES}  ${QT_LIBRARIES} ${AUBO_LIBRARIES})
 
 # 自动写字
 add_executable(08_Painter 08_Painter.cpp  Robot.cpp Robot.h ${PAW_SOURCE} )
-target_link_libraries(08_Painter  libfreenect2.so ${OpenCV_LIBRARIES}  ${QT_LIBRARIES} ${AUBO_LIBRARIES})
+target_link_libraries(08_Painter  ${FREENECT_LIBRARIES} ${OpenCV_LIBRARIES}  ${QT_LIBRARIES} ${AUBO_LIBRARIES})
 
 
 

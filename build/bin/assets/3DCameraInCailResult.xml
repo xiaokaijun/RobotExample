@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<calibration_time>"2019年07月15日 星期一 20时10分46秒"</calibration_time>
+<cameraMatrix type_id="opencv-matrix">
+  <rows>3</rows>
+  <cols>3</cols>
+  <dt>d</dt>
+  <data>
+    1.0724188795264415e+03 0. 9.5107221368846376e+02 0.
+    1.0745709178547679e+03 5.3424171241727697e+02 0. 0. 1.</data></cameraMatrix>
+<distCoeffs type_id="opencv-matrix">
+  <rows>1</rows>
+  <cols>5</cols>
+  <dt>d</dt>
+  <data>
+    8.0383118923334509e-02 -1.1706511325010829e-01
+    -9.0442504447195459e-04 -5.4929065316617178e-04
+    3.4126411325850363e-02</data></distCoeffs>
+<error>3.2342650341914708e-01</error>
+</opencv_storage>

@@ -22,9 +22,9 @@ using namespace Eigen;
 using namespace cv;
 
 // 内参文件路径
-cv::String inCailFilePath="./assets/3DCameraInCailResult.xml";
+static cv::String inCailFilePath="./assets/3DCameraInCailResult.xml";
 // 外参文件路径
-cv::String exCailFilePath="./assets/3DCameraExCailResult.xml";
+static cv::String exCailFilePath="./assets/3DCameraExCailResult.xml";
 
 
 /**
@@ -32,7 +32,7 @@ cv::String exCailFilePath="./assets/3DCameraExCailResult.xml";
  * @param piexld 输入 {列, 行, 深度}
  * @param cameraPos 输出 {x,y,z}
  */
-void piexl2camera(double *piexld,double *cameraPos){
+static void piexl2camera(double *piexld,double *cameraPos){
     Mat cameraMatrix=cv::Mat_<double>(3, 3);;
     // 读取内参
     FileStorage paramFs(inCailFilePath,FileStorage::READ);
@@ -67,7 +67,7 @@ void piexl2camera(double *piexld,double *cameraPos){
  * @param cameraPos 传入相机坐标系中的值
  * @param basePos 输出机器人Base坐标系中的值
  */
-void camera2base(double *cameraPos, double *basePos) {
+static void camera2base(double *cameraPos, double *basePos) {
     double angle = 0;
     double axisX = 0;
     double axisY = 0;
