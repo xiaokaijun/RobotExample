@@ -97,6 +97,7 @@ CMakeFiles/AuboInterfaceExample.dir/example/util.cpp.o: /home/kaijun/devtool/rob
 CMakeFiles/AuboInterfaceExample.dir/example/util.cpp.o: /home/kaijun/devtool/robotdependents/libs/robotSDK/inc/robotiomatetype.h
 CMakeFiles/AuboInterfaceExample.dir/example/util.cpp.o: /home/kaijun/devtool/robotdependents/libs/robotSDK/inc/serviceinterface.h
 
+CMakeFiles/AuboInterfaceExample.dir/main.cpp.o: ../example/example_0.h
 CMakeFiles/AuboInterfaceExample.dir/main.cpp.o: ../example/example_1.h
 CMakeFiles/AuboInterfaceExample.dir/main.cpp.o: ../example/example_3.h
 CMakeFiles/AuboInterfaceExample.dir/main.cpp.o: ../example/example_4.h
@@ -104,7 +105,6 @@ CMakeFiles/AuboInterfaceExample.dir/main.cpp.o: ../example/example_5.h
 CMakeFiles/AuboInterfaceExample.dir/main.cpp.o: ../example/example_6.h
 CMakeFiles/AuboInterfaceExample.dir/main.cpp.o: ../example/example_8.h
 CMakeFiles/AuboInterfaceExample.dir/main.cpp.o: ../example/example_9.h
-CMakeFiles/AuboInterfaceExample.dir/main.cpp.o: ../example/example_0.h
 CMakeFiles/AuboInterfaceExample.dir/main.cpp.o: ../main.cpp
 CMakeFiles/AuboInterfaceExample.dir/main.cpp.o: /home/kaijun/devtool/robotdependents/libs/robotSDK/inc/AuboRobotMetaType.h
 CMakeFiles/AuboInterfaceExample.dir/main.cpp.o: /home/kaijun/devtool/robotdependents/libs/robotSDK/inc/robotiomatetype.h

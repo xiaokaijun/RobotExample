@@ -98,6 +98,7 @@ CMakeFiles/AuboInterfaceExample.dir/example/util.cpp.o
  /home/kaijun/devtool/robotdependents/libs/robotSDK/inc/robotiomatetype.h
  /home/kaijun/devtool/robotdependents/libs/robotSDK/inc/serviceinterface.h
 CMakeFiles/AuboInterfaceExample.dir/main.cpp.o
+ ../example/example_0.h
  ../example/example_1.h
  ../example/example_3.h
  ../example/example_4.h
@@ -105,7 +106,6 @@ CMakeFiles/AuboInterfaceExample.dir/main.cpp.o
  ../example/example_6.h
  ../example/example_8.h
  ../example/example_9.h
- /home/kaijun/devtool/auboSDK/Linux/RobotExample/example/example_0.h
  /home/kaijun/devtool/auboSDK/Linux/RobotExample/main.cpp
  /home/kaijun/devtool/robotdependents/libs/robotSDK/inc/AuboRobotMetaType.h
  /home/kaijun/devtool/robotdependents/libs/robotSDK/inc/robotiomatetype.h

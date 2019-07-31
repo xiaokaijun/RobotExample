@@ -13,8 +13,7 @@
 #include <thread>
 #include "Robot.h"
 #include "utils/03_Camera2Base.h"
-#include "utils/05_DetectSquare.h"
-// 导入方块识别的代码
+
 /*
   画图案例
 */

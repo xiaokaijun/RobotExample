@@ -31,3 +31,14 @@
 
 ## 2. 代码测试
 每个文件都是一个独立的程序,直接进去运行main函数即可!
+## 3. 注意
+如果出现std::__cxx11::baisc_string 相关的错误.请按如下步骤进行修改:
+```
+cd /usr/lib/x86_64-linux-gnu/
+
+ls -ll libstdc*
+
+查看是否列出 libstdc++.so.6.0.25 ,如果没有,就去别人的电脑上拷贝一个放到这个路径下面
+创建6.0.25的软链接
+sudo -sdf libstdc++.so.6.0.25 libstdc++.so.6 
+```
