@@ -11,7 +11,9 @@ using namespace std;
 /**
  * 小方块识别案例
 */
-
+/**
+ * 小方块颜色枚举类型 : 只会检测 红绿紫 三种颜色的小方块
+ */
 typedef enum{
     RED = 0,
     GREEN = 1,
@@ -25,7 +27,13 @@ struct Square{
 };
 
 
-
+/**
+ * 计算三个点之间的cos值
+ * @param p0
+ * @param p1
+ * @param p2
+ * @return
+ */
 double angle_cos(Point p0,Point p1,Point p2){
     Mat m0(p0);
     Mat m1(p1);
@@ -39,7 +47,11 @@ double angle_cos(Point p0,Point p1,Point p2){
 //    cout<<"result:"<<result<< " d1 "<< d1.size << endl;
     return abs(result);
 }
-
+/**
+ * 计算最大的cos值
+ * @param points
+ * @return
+ */
 double calculateMaxCos(vector<Point> points){
     double maxCos=0;
     for (int i = 0; i < points.size(); ++i) {
@@ -55,7 +67,13 @@ double calculateMaxCos(vector<Point> points){
     return maxCos;
 }
 
-
+/**
+ * 判定颜色是否在某个范围内
+ * @param roi0    图片
+ * @param lowerb  颜色最小值
+ * @param upperb  颜色最大值
+ * @return   是否在范围内
+ */
 bool detectColor(const Mat &roi0, const Scalar &lowerb, const Scalar &upperb) {
     Mat binaryResult;
     inRange(roi0, lowerb, upperb, binaryResult);
@@ -66,7 +84,9 @@ bool detectColor(const Mat &roi0, const Scalar &lowerb, const Scalar &upperb) {
     }
     return false;
 }
-
+/**
+ * 判断方块的颜色
+ */
 EnumColor detectColor(const vector<Point> &c0, Mat &roi) {
 
     Rect rect0 = boundingRect(c0);

@@ -17,7 +17,7 @@ int main(){
 
 
     vector<double> ref = {cos(alpha),sin(alpha),0};
-
+    // 测试根据RobWork封装的RPY工具类的可靠性
     vector<double> result = calcRPY(norm,ref);
 
     cout<<cos(alpha)<<endl;
@@ -25,7 +25,6 @@ int main(){
     cout<<result[0]<<endl;
     cout<<result[1]<<endl;
     cout<<result[2]<<endl;
-
 
     double xyz[] = {0.07,-0.32,0.25};
     double rpy[] = {result[0],result[1],result[2]};

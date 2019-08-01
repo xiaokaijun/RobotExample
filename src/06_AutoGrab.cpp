@@ -263,15 +263,11 @@ int main(int argc, char** argv) {
 
     imshow("srcrgb",rgbmat);
 
+    // 为了防止QT界面被阻塞,所以开启子线程
     std::thread t1([=](){
         grabSquareToBox(bigdepthmat,squares);
     });
     t1.detach();
-
-
-
-
-
 
     waitKey(0);
 

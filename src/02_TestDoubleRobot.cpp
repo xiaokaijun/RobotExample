@@ -10,7 +10,9 @@
 #include <thread>
 
 #define DE2RA M_PI/180
-
+/**
+ * 双臂机器人的基本操作
+ */
 using namespace std;
 // 姿态1:
 double joint1[] = {18.819843*DE2RA, -17.610569*DE2RA, -109.448857*DE2RA,-3.861306*DE2RA, -88.872687*DE2RA, -160.007877*DE2RA};

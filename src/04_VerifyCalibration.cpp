@@ -111,20 +111,8 @@ int main(int argc, char** argv) {
     std::cout << "device firmware: " << dev->getFirmwareVersion() << std::endl;
     //! [start]
 
-    // 内参文件路径
-    cv::String inCailFilePath="./assets/3DCameraInCailResult.xml";
-    FileStorage paramFs(inCailFilePath,FileStorage::READ);
-    Mat cameraMatrix=cv::Mat_<double>(3, 3);
-    paramFs["cameraMatrix"]>>cameraMatrix;
-    double camera_fx = cameraMatrix.at<double>(0,0);
-    double camera_fy = cameraMatrix.at<double>(1,1);
-    double camera_cx = cameraMatrix.at<double>(0,2);
-    double camera_cy = cameraMatrix.at<double>(1,2);
-
-
 
     libfreenect2::Registration* registration = new libfreenect2::Registration(dev->getIrCameraParams(), dev->getColorCameraParams());
-
     libfreenect2::Frame undistorted(512, 424, 4), registered(512, 424, 4), bigdepth(1920, 1082, 4);
 
 

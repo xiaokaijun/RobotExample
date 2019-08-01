@@ -14,7 +14,9 @@
 #include <opencv2/opencv.hpp>
 
 /**
- * 坐标系转换工具
+ * 本文件包含:
+ *  1.像素坐标系转相机坐标系
+ *  2.相机坐标系转Base坐标系
  */
 
 using namespace std;

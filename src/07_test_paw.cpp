@@ -6,7 +6,10 @@
 #include <iostream>
 
 using namespace std;
-
+/**
+ * 测试因时机械爪的使用
+ * @return
+ */
 int main() {
     Paw paw("/dev/ttyUSB0");
     // 关闭机械抓

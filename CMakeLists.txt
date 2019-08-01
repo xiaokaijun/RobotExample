@@ -1,10 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(AuboInterfaceExample)
+project(RobotExample)
 
-set(CMAKE_CXX_STANDARD 11)
-
-set(CAKE_CXX_FLAGS  " g3 -Wall" )
-
+set(CMAKE_CXX_STANDARD 14)
 
 # 设置example的路径
 set(EXAMPLE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/example)
@@ -60,13 +57,13 @@ find_package(Aubo REQUIRED)
 aux_source_directory(example DIR_SRCS)
 include_directories(example)
 # 让example文件夹下的源文件和main.cpp一起编译
-add_executable(AuboInterfaceExample main.cpp ${DIR_SRCS})
+add_executable(RobotExample main.cpp ${DIR_SRCS})
 
 
 #link_directories(${DEPENDENTS_DIR}/robotSDK/lib/linux_x64)
 
 # 指定链接库..
-target_link_libraries(AuboInterfaceExample ${AUBO_LIBRARIES})
+target_link_libraries(RobotExample ${AUBO_LIBRARIES})
 
 
 #add_executable(DrawCircle  DrawCircle.cpp)

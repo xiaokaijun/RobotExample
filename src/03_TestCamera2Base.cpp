@@ -1,7 +1,9 @@
 
 
 #include "utils/03_Camera2Base.h"
-
+/**
+ * 测试封装的相机工具类
+ */
 int main(int argc, char **argv)
 {
 
