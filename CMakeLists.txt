@@ -9,8 +9,18 @@ set(CAKE_CXX_FLAGS  " g3 -Wall" )
 # 设置example的路径
 set(EXAMPLE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/example)
 
+
+
 # 设置findpackage查找工程的目录
+# 1. 在工程中创建一个cmake文件夹
+# 2. 创建一个FindXXX.cmake的文件
+# 3. find_package(XXX REQUIRED)
+
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_SOURCE_DIR}/cmake)
+
+
+
+
 find_package(Aubo REQUIRED)
 
 ## 设置以来的路径

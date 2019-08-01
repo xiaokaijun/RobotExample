@@ -44,3 +44,10 @@ ls -ll libstdc*
 创建6.0.25的软链接
 sudo -sdf libstdc++.so.6.0.25 libstdc++.so.6 
 ```
+
+## 4.参考文档
+```$xslt
+https://blog.csdn.net/zhangrelay/article/details/81177851
+
+https://blog.csdn.net/UAV_FRESHMAN/article/details/52832874
+```

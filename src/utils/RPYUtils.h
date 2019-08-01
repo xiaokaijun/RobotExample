@@ -12,12 +12,14 @@
 using namespace std;
 using namespace rw::math;
 
-//// 问题描述：
+
 /**
- * 给定法线方向，需要构建出一个坐标系
+ *
+ * @param norm 法线方向
+ * @param ref  参考向量
  * @return
  */
-vector<double> calcRPY(vector<double> norm)
+static vector<double> calcRPY(vector<double> norm,vector<double> ref)
 {
 
     /// 1.法线方向(normal)
@@ -26,7 +28,7 @@ vector<double> calcRPY(vector<double> norm)
 
     /// 2.给定参考方向，此方向根据实际情况指定
 //    Vector3D<double> refVec( norm[0], norm[1], 0.0 );
-    Vector3D<double> refVec( 1,0, 0 );
+    Vector3D<double> refVec(ref[0],ref[1], ref[2] );
 
     /// 3.通过叉乘，计算x轴向量
     Vector3D<double> xVec = cross( norVec, refVec );
@@ -61,5 +63,18 @@ vector<double> calcRPY(vector<double> norm)
     return result;
 }
 
+
+/**
+ * 给定法线方向，需要构建出一个坐标系
+ * @return
+ */
+static vector<double> calcRPY(vector<double> norm)
+{
+
+    vector<double> ref={1,0,0};
+
+    vector<double> result = calcRPY(norm,ref);
+    return result;
+}
 
 #endif //STUDY_ROBOT_RPYUTILS_H
