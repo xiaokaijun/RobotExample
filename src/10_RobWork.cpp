@@ -27,7 +27,7 @@ int main(){
     cout<<result[2]<<endl;
 
     double xyz[] = {0.07,-0.32,0.25};
-    double rpy[] = {result[0],result[1],result[2]};
+    double rpy[] = {result[2],result[1],result[0]};
     robot.movel(xyz,rpy);
 
 
