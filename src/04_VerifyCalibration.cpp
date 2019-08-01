@@ -72,8 +72,6 @@ void verifyCalibration(vector<Point2f> corners,Mat depth){
         double result[6]={basePos[0]+0.01,basePos[1],basePos[2]+0.15,180*DE2RA,0,-90*DE2RA};
         robot.movel(result);
     }
-
-
 }
 
 
@@ -171,17 +169,17 @@ int main(int argc, char** argv) {
         fs2<<"depth"<<bigdepthmat;
         fs2.release();
 //
-        listener.release(frames);
+
 //
         vector<Point2f> corners ;
         findCorners(rgbmat,corners);
 
         verifyCalibration(corners,bigdepthmat);
 
-//        imshow("src",rgbmat);
+        imshow("src",rgbmat);
 //        imshow("bigdepthmat",bigdepthmat);
 //
-
+        listener.release(frames);
 
 //    }
 

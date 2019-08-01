@@ -26,7 +26,7 @@ vector<double> calcRPY(vector<double> norm)
 
     /// 2.给定参考方向，此方向根据实际情况指定
 //    Vector3D<double> refVec( norm[0], norm[1], 0.0 );
-    Vector3D<double> refVec( 1,0, 0.0 );
+    Vector3D<double> refVec( 1,0, 0 );
 
     /// 3.通过叉乘，计算x轴向量
     Vector3D<double> xVec = cross( norVec, refVec );

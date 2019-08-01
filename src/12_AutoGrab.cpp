@@ -178,7 +178,7 @@ int main(int argc, char **argv) {
     libfreenect2::Frame undistorted(512, 424, 4), registered(512, 424, 4), bigdepth(1920, 1082, 4);
 
     int keyCode = 0;
-//    while (true) {
+    while (true) {
 
         cout<<"执行代码"<<endl;
 //        listener.waitForNewFrame(frames);
@@ -211,8 +211,9 @@ int main(int argc, char **argv) {
         findSquare(rgbmat, squares);
 
 //        if (squares.size() == 0) {
-//            break;
+//            continue;
 //        }
+
 
         // 在原图中绘制方块
         for (int j = 0; j < squares.size(); ++j) {
@@ -221,11 +222,20 @@ int main(int argc, char **argv) {
         }
 
         imshow("srcrgb", rgbmat);
-        grabOneBox(bigdepthmat, defaultDepth, squares[0]);
-        listener.release(frames);
+        keyCode = waitKey(100);
 
-        sleep(1);
-//    }
+
+        if(keyCode==27){
+            break;
+        }
+        if(squares.size()>0)
+            cout<<"机械臂要开始移动啦!"<<endl;
+            sleep(3);
+            cout<<"机械臂移动完成"<<endl;
+//            grabOneBox(bigdepthmat, defaultDepth, squares[0]);
+
+        listener.release(frames);
+    }
 
     cout<<"程序执行完成的样子"<<endl;
 
